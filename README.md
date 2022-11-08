@@ -1468,5 +1468,10 @@ z => 1
 ```
 
 ---
+![6_5](https://github.com/kolpakovee/avs_idz2/blob/main/6.png)
+- Вес файла second.s - 3 837 Б.
+- Вес файла optimized.s - 3 626 Б.
+- Таким образом, размер программы, использующей регистры, меньше на 211 Б.
+---
 ![6_4](https://github.com/kolpakovee/avs_idz1/blob/main/criteria/6_4.png)
 - Информация добавлена в отчёт.
