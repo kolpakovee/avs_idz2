@@ -55,22 +55,52 @@ r => 1
 
 1) Ввод: 
 ```
-10 
-1 2 3 4 5 6 7 8 9 10
+I love C#!
 ```
 
 Предполагаемый вывод:
 ```
-ArrayB: 1 4 9 25 36 49 64 81 100
+  => 2
+! => 1
+# => 1
+C => 1
+I => 1
+e => 1
+l => 1
+o => 1
+v => 1
+9
 ```
 
 Вывод программы на C:
 
-![](https://github.com/kolpakovee/avs_idz1/blob/main/tests/test1C.png)
+```
+  => 2
+! => 1
+# => 1
+C => 1
+I => 1
+e => 1
+l => 1
+o => 1
+v => 1
+9
+```
 
 Вывод программы на GAS:
 
-![](https://github.com/kolpakovee/avs_idz1/blob/main/tests/test1GAS.png)
+```
+  => 2
+! => 1
+# => 1
+C => 1
+I => 1
+e => 1
+l => 1
+o => 1
+v => 1
+9
+```
 ---
 2) Ввод: 
 ```
