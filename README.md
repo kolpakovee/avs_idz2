@@ -104,58 +104,210 @@ v => 1
 ---
 2) Ввод: 
 ```
-0
+My favorite lesson is computer architecture...
 ```
 
 Предполагаемый вывод:
 ```
-ArrayB: 
+  => 5
+. => 3
+M => 1
+a => 2
+c => 3
+e => 5
+f => 1
+h => 1
+i => 3
+l => 1
+m => 1
+n => 1
+o => 3
+p => 1
+r => 4
+s => 3
+t => 4
+u => 2
+v => 1
+y => 1
+20
 ```
 
 Вывод программы на C:
 
-![](https://github.com/kolpakovee/avs_idz1/blob/main/tests/test2C.png)
+```
+  => 5
+. => 3
+M => 1
+a => 2
+c => 3
+e => 5
+f => 1
+h => 1
+i => 3
+l => 1
+m => 1
+n => 1
+o => 3
+p => 1
+r => 4
+s => 3
+t => 4
+u => 2
+v => 1
+y => 1
+20
+```
 
 Вывод программы на GAS:
 
-![](https://github.com/kolpakovee/avs_idz1/blob/main/tests/test2GAS.png)
+```
+  => 5
+. => 3
+M => 1
+a => 2
+c => 3
+e => 5
+f => 1
+h => 1
+i => 3
+l => 1
+m => 1
+n => 1
+o => 3
+p => 1
+r => 4
+s => 3
+t => 4
+u => 2
+v => 1
+y => 1
+20
+```
 ---
 3) Ввод: 
 ```
-1001
+ 
 ```
 
 Предполагаемый вывод:
 ```
-You entered an invalid number.
+  => 1
+1
 ```
 
 Вывод программы на C:
 
-![](https://github.com/kolpakovee/avs_idz1/blob/main/tests/test3C.png)
+```
+  => 1
+1
+```
 
 Вывод программы на GAS:
 
-![](https://github.com/kolpakovee/avs_idz1/blob/main/tests/test3GAS.png)
+```
+  => 1
+1
+```
 ---
 4) Ввод: 
 ```
-10
-6807 5249 73 3658 8930 1272 7544 878 7923 7709
+abcdefghijklmnopqrstuvwxyz
 ```
 
 Предполагаемый вывод:
 ```
-ArrayB: 46335249 27552001 5329 13380964 79744900 1617984 56911936 770884 62773929 59428681
+a => 1
+b => 1
+c => 1
+d => 1
+e => 1
+f => 1
+g => 1
+h => 1
+i => 1
+j => 1
+k => 1
+l => 1
+m => 1
+n => 1
+o => 1
+p => 1
+q => 1
+r => 1
+s => 1
+t => 1
+u => 1
+v => 1
+w => 1
+x => 1
+y => 1
+z => 1
+26
 ```
 
 Вывод программы на C:
 
-![](https://github.com/kolpakovee/avs_idz1/blob/main/tests/test4C.png)
+```
+a => 1
+b => 1
+c => 1
+d => 1
+e => 1
+f => 1
+g => 1
+h => 1
+i => 1
+j => 1
+k => 1
+l => 1
+m => 1
+n => 1
+o => 1
+p => 1
+q => 1
+r => 1
+s => 1
+t => 1
+u => 1
+v => 1
+w => 1
+x => 1
+y => 1
+z => 1
+26
+```
 
 Вывод программы на GAS:
 
-![](https://github.com/kolpakovee/avs_idz1/blob/main/tests/test4GAS.png)
+```
+a => 1
+b => 1
+c => 1
+d => 1
+e => 1
+f => 1
+g => 1
+h => 1
+i => 1
+j => 1
+k => 1
+l => 1
+m => 1
+n => 1
+o => 1
+p => 1
+q => 1
+r => 1
+s => 1
+t => 1
+u => 1
+v => 1
+w => 1
+x => 1
+y => 1
+z => 1
+26
+```
 ---
 5) Ввод: 
 ```
