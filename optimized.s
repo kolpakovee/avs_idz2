@@ -14,7 +14,7 @@ print:                              #функция print
 	push	rbp                     #сохранение rbp на стек
 	mov	rbp, rsp                    #rbp := rsp
 	sub	rsp, 32                     #rbp -= 32
-	mov	QWORD PTR -24[rbp], rdi     #указывает где на стеке разместить 1-й аргумент функции
+	mov	r15, rdi     #указывает где на стеке разместить 1-й аргумент функции
 	mov	r14d, esi     #указывает где на стеке разместить 2-й аргумент функции
 	mov	r12d, 0        #count := 0
 	mov	r13d, 0        #i := 0 (переменная цикла)
@@ -23,7 +23,7 @@ print:                              #функция print
 	mov	eax, r13d      #eax := переменная цикла
 	cdqe
 	lea	rdx, 0[0+rax*4]             #rdx := array[i]
-	mov	rax, QWORD PTR -24[rbp]
+	mov	rax, r15
 	add	rax, rdx
 	mov	eax, DWORD PTR [rax]
 	test	eax, eax
@@ -33,7 +33,7 @@ print:                              #функция print
 	mov	eax, r13d
 	cdqe
 	lea	rdx, 0[0+rax*4]
-	mov	rax, QWORD PTR -24[rbp]
+	mov	rax, r15
 	add	rax, rdx
 	mov	edx, DWORD PTR [rax]
 	mov	eax, r13d
@@ -113,4 +113,4 @@ main:
 #DWORD PTR -4[rbp] -> r12d
 #DWORD PTR -8[rbp] -> r13d
 #DWORD PTR -28[rbp] -> r14d
-
+#QWORD PTR -24[rbp] -> r15
