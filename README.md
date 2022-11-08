@@ -5,7 +5,7 @@
 
 Мой вариант 39 представлен ниже:
 
-![variant](https://github.com/kolpakovee/avs_idz1/blob/main/criteria/var.png)
+![variant](https://github.com/kolpakovee/avs_idz2/blob/main/вариант.png)
 
 ---
 **Ограничения ввода:**
