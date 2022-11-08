@@ -855,40 +855,31 @@ z => 1
 ## 5 баллов
 ![5_1](https://github.com/kolpakovee/avs_idz1/blob/main/criteria/5_1.png)
 
-- Функции с передачей данных через параметры использованы (файл main.c)
+- Функция с передачей данных через параметры использованы (файл main.c)
 
 ```
-void getArrayA(int sizeA){  
-    for (int i = 0; i < sizeA; ++i) {  
-        int value;  
-        printf("Enter %d value: ", i + 1);  
-        scanf("%d", &value);  
-        arrayA[i] = value;  
-    }  
-}  
-  
-void getArrayB(int sizeA){  
-    for (int i = 0; i < sizeA; ++i) {  
-        arrayB[i] = arrayA[i] * arrayA[i];  
-    }  
-}  
-  
-void outResult(int sizeA){  
-    printf("Array B: ");  
-    for (int i = 0; i < sizeA; ++i) {  
-        printf("%d ",arrayB[i]);  
-    }  
+void print(int array[], int size) {
+    int count = 0;
+    for (int i = 0; i < size; i++) {
+        if (array[i] != 0 && i >= 32) {
+            printf("%c => %d\n", (char) i, array[i]);
+            ++count;
+        }
+    }
+    printf("%d", count);
 }
 ```
 
 ---
 ![5_2](https://github.com/kolpakovee/avs_idz1/blob/main/criteria/5_2.png)
 
-- Локальные переменные использованы(Например, value в функции getArrayA и sizeA в функции main). Это можно увидеть в файле main.c
+- Локальные переменные использованы. Это можно увидеть в файле main.c
 ```
-int value;
-
-int sizeA;
+int count = 0;
+int counts[128] = {0};
+char str[1000000];
+int i = 0;
+int ch;
 ```
 ---
 ![5_3](https://github.com/kolpakovee/avs_idz1/blob/main/criteria/5_3.png)
